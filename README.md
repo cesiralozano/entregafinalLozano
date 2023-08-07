@@ -1,15 +1,22 @@
 <h1 align="center">Hi 👋, I'm Cesira Lozano</h1>
-<h3 align="center">A student</h3>
 
-- 🔭 I’m currently working on [minimarketdandie](https://github.com/cesiralozano/minimarketdandie.git)
+# MinimarketDandie
 
-- 🌱 I’m currently learning **html css**
+Minimarket Dandie es el sitio de un negocio familiar, en este comercio nos dedicamos a:
+* Cobrar impuestos a traves de la empresa PAGO FACIL.
+* Hacer y Recibir envios Nacionales e Internacionales a traves de la empresa de Westernunion.
+* Vender pasajes de colectivo larga distancia a traves de la empresa Plataforma10.
+* Tambien tenemos otros servicios como Impresion de Boletas, Venta de Formularios, Gestion de turnos Anses y mucho mas.
 
-- 📫 How to reach me **lozanocesira8@gmail.com**
+El sitio esta compuesto por un Index (home) donde podemos encontrar:
+* Un navbar hecho con Bootstrap.
+* El main con FLexbox+grids.
+* Footer hecho con Grids.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+y 5 paginas:
+1) Pago facil (navbar Bootstrap-main FLexbox+Grids-FooterGrids)
+2) Anses (navbar Bootstrap-main FLexbox+Grids-Formulario Bootstrap-Footer Grids)
+3) Plataforma10 (navbar Bootstrap- main FLexbox+Grids-Footer Grids)
+4) Otros servicios (navbar Bootstrap- main FLexbox+Grids-Footer Grids)
+5) Nosotros (navbar Bootstrap-main FLexbox+Grids-Formulario Bootstrap-Footer Grids)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
