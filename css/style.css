@@ -496,3 +496,13 @@ header nav{
     .tarjetas{
         margin-left: 10px;
     }
+}
+
+@media screen and (max-width:1400px){
+    .formulario{
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}    
