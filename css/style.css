@@ -422,7 +422,7 @@ header nav{
     align-content: center;
 }
 /*!-----------MEDIAQUERIES INDEX--------*/
-@media screen and (max-width:1387px){
+@media screen and (max-width:1024px){
     .westernunion1 img{
         margin-left: -70px;
     }
@@ -438,15 +438,15 @@ header nav{
 
     }
 
-@media screen and (max-width:1150px)and (min-width:990px){
+/*@media screen and (max-width:768px){
     .westernunion1 img{
         margin-left: 10px;
     }
     .westernunion1 p{
         margin-left: -70px;
     }
-}   
-@media screen and (max-width:990px) and (min-width:880px){
+}   */
+/*@media screen and (max-width:768px){
     .pagofacil1{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -500,8 +500,11 @@ header nav{
     .otrosservicios1 img{
         margin-right: 50px;
     }
-}
-@media screen and (max-width:880px) and (min-width:350px){
+}*/
+
+
+
+@media screen and (max-width:768px){
     .pagofacil1{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -564,7 +567,7 @@ header nav{
 }
 
 /*!-----------MEDIAQUERIES PAGINA3PLATAFORMA10--------*/    
-@media screen and (max-width:1400px) and (min-width:869){
+/*@media screen and (max-width:1400px) and (min-width:869){
     .pagina3b p{
         margin-top: -180px;
     }
