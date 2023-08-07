@@ -109,24 +109,25 @@ header nav{
     font-style: normal;
     font-size: 20px;
     color: black;
-    text-align: end;
+    text-align: center;
     padding: 30px;
-    margin-right: -100px;
 }
 .westernunion1 img{
     width:25%;
     height:90px;
     display: flex;
-    justify-content: space-between;
-    margin-left: -185px;
+    justify-content: end;
 }
 .westernunion1{
     display: flex;
-    flex-direction:row-reverse;
-    justify-content:space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .westernunion{
     margin-top: 105px;
+    max-width: 100%;
 }
 
 /*TITULOTERCIARIOotrosservicios*/
@@ -504,7 +505,7 @@ header nav{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:922px){
     .pagofacil1{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -537,15 +538,16 @@ header nav{
         margin-top: -60px;
     }
     .westernunion h3{
-        text-align: center;
-        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    
     .westernunion1 p{
         text-align: center;
-        margin-left: -240px;
-        margin-bottom: 80px;
     }
     .westernunion1 img{
+        display: grid;
         justify-self: center;
         align-self: center;
         margin-top: -60px;
@@ -564,6 +566,17 @@ header nav{
     .tarjetas{
         margin-left: 10px;
     }
+    .grid-container{
+        display: grid;
+        max-width: 100%;
+    }
+    /*.botonwhatsapp{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        flex-wrap: wrap;
+    }*/
+
 }
 
 /*!-----------MEDIAQUERIES PAGINA3PLATAFORMA10--------*/    
