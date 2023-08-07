@@ -1,0 +1,576 @@
+/*!----------------------TIPOGRAFIA------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1;1,300&display=swap');
+
+
+/*!----------------------RESET------------------*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+/*!-------------------------------------------------HEADER--------------------------------------*/
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+header nav{
+    background-color:#a0138df0;
+}
+.navbar-brand{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 95px;
+}
+.navbar-nav a{
+    color: white;
+    font-style: italic;
+}
+
+/*!----------------------------------------------MAIN-----------------------------*/
+
+
+/*!---------------------------INDEX----*/
+/*tituloprincipal*/
+.titulo1 h1{
+    background-image: url(../img/bienvenidos.webp);
+    background-size: cover;
+    width:100%;
+    height:280px ;
+    color:rgba(255, 255, 255, 0.576);
+    font-size: 65px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    padding: 95px
+}
+
+/*titulosecundario NUESTROS SERVICIOS*/
+.titulo2 h2{
+    color: #255b99c8;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+
+}
+
+/*TITULOTERCIARIOpagofacil*/
+.pagofacil h3{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:30px;
+    margin-left: 95px;
+    margin-bottom:15px;
+    text-align:start;
+    color: #0b3565c8;
+}
+.pagofacil1 p{
+    font-style: normal;
+    font-size: 20px;
+    padding: 90px;
+    color:black;
+    
+}
+.pagofacil1 img{
+    width:25%;
+    height:35vh;
+    margin-right: 90px;
+}
+.pagofacil1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*TITULOTERCIARIOwesternunion*/
+.westernunion h3{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin: 55px;
+    margin-bottom:15px;
+    text-align: end;
+    margin-right:195px;
+    color:#0b3565c8;
+}
+.westernunion1 p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 30px;
+    margin-right: -100px;
+}
+.westernunion1 img{
+    width:25%;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -185px;
+}
+.westernunion1{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+}
+.westernunion{
+    margin-top: 105px;
+}
+
+/*TITULOTERCIARIOotrosservicios*/
+.otrosservicios h3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight:1;
+    color:#0b3565c8;
+    margin: 55px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+}
+
+.otrosservicios1 p{
+    font-style: normal;
+    font-size: 20px;
+    padding: 90px;
+    color: black;
+}
+.otrosservicios1 img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: end;
+    margin-right: 90px;
+}
+.otrosservicios1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.otrosservicios{
+    margin-top: 135px;
+
+}
+
+/*BOTONES*/
+.boton{
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 9px;
+    border-radius: 5px;
+
+}
+
+/*TARJETAS*/
+.tarjetas div{
+    border: 1px solid;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    margin: 85px;
+}
+.tarjetas div img{
+    width: 250px;
+    height: 200px;
+}
+
+.tarjetas div p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tarjetas div h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tarjetas{
+    margin: 75px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*titulosecundario UBICACION Y REDES SOCIALES*/
+.nuestrasredes h2{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+    background-color:#0b3565c8;
+    padding: 10px;
+
+}
+
+/*MAPA*/
+.mapa iframe{
+    width:100%;
+    height:70vh;
+}
+
+
+/*iconowhatsapp*/
+.botonwhatsapp{
+    position: fixed;
+    bottom:100px;
+    right:50px ;
+}
+.botonwhatsapp img{
+    width: 50px;
+    margin-bottom: -60px;
+}
+
+
+/*!-----------PAGINA2PAGOFACIL-------*/
+
+/*tituloPAGOFACIL y WESTERNUNION MISMA CLASS*/
+.pagina2 h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:90px;
+    margin-right: 95px;
+    margin-bottom:15px;
+    text-align:end;
+    color: #0b3565c8;
+}
+
+.pagina2b p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+}
+.pagina2 a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin:550px;
+}
+.pagina2b img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+.pagina2b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina2{
+    margin-top: 105px;
+}
+
+/*!----------PAGINA3ANSES------------*/
+
+.pagina3 h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:90px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+}
+
+.pagina3b img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+.pagina3b p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+}
+.pagina3b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina3{
+    margin-top: 105px;
+}
+
+/*!----------PAGINA4PLATAFORMA10------------*/
+.pagina4 a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin:550px;
+}
+.pagina4 h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:50px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+}
+
+.pagina4b img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+.pagina4b p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+}
+.pagina4b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina4{
+    margin-top: 105px;
+}
+
+/*!----------PAGINA5OTROSSERVICIOS------------*/
+
+.pagina5 a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin:550px;
+}
+.pagina5 h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:50px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+}
+
+.pagina5b img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+.pagina5b p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+}
+.pagina5b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina5{
+    margin-top: 105px;
+}
+
+/*!------------------------FOOTER--------------------*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:20px;
+    max-width: 100%;
+}
+.grid-item img{
+    height: 35px;
+    width: 20px;
+}
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/*!-----------MEDIAQUERIES INDEX--------*/
+@media screen and (max-width:1387px){
+    .westernunion1 img{
+        margin-left: -70px;
+    }
+    .tarjetas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .titulo1{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    }
+
+@media screen and (max-width:1150px)and (min-width:990px){
+    .westernunion1 img{
+        margin-left: 10px;
+    }
+    .westernunion1 p{
+        margin-left: -70px;
+    }
+}   
+@media screen and (max-width:990px) and (min-width:880px){
+    .pagofacil1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: row;
+    }
+    .westernunion1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: row;
+    }
+    .otrosservicios1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: row;
+    }
+    .titulo1{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        
+    }
+    .pagofacil h3{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .pagofacil1 p{
+        margin-top: -30px;
+    }
+    .pagofacil1 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .westernunion1 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .westernunion1 p{
+        text-align: start;
+        margin-left: -20px;
+    }
+    .westernuninon h3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .otrosservicios1 img{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:880px) and (min-width:350px){
+    .pagofacil1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .westernunion1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .otrosservicios1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        max-width:100%;
+    }
+    .pagofacil h3{
+        margin-bottom: -40px;
+        margin-top: 80px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .pagofacil1 p{
+        text-align: start;
+    }
+    .pagofacil1 img{
+        justify-self: center;
+        align-self: center;
+        margin-top: -60px;
+    }
+    .westernunion h3{
+        text-align: center;
+        margin-left: 150px;
+    }
+    .westernunion1 p{
+        text-align: center;
+        margin-left: -240px;
+        margin-bottom: 80px;
+    }
+    .westernunion1 img{
+        justify-self: center;
+        align-self: center;
+        margin-top: -60px;
+    }
+    .otrosservicios h3{
+        margin-bottom: -40px;
+        margin-top: 90px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .otrosservicios1 img{
+        justify-self: center;
+        align-self: center;
+        margin-top: -60px;
+    }
+    .tarjetas{
+        margin-left: 10px;
+    }
+}
+
+/*!-----------MEDIAQUERIES PAGINA3PLATAFORMA10--------*/    
+@media screen and (max-width:1400px) and (min-width:869){
+    .pagina3b p{
+        margin-top: -180px;
+    }
+    .pagina3 h2{
+        text-align: center;
+        margin-bottom: -90px;
+    }
+
+}
