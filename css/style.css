@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 
 }
 
@@ -442,6 +443,9 @@ header nav{
         justify-content: center;
         align-items: center;
     }
+    .otrosservicios1 p{
+        max-width: 80%;
+    }
     }
 
 
@@ -499,6 +503,9 @@ header nav{
         align-self: center;
         margin-top: -60px;
     }
+    .otrosservicios{
+        max-width: 100%;
+    }
     .tarjetas{
         margin-left: 10px;
     }
@@ -542,6 +549,9 @@ header nav{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .titulo1 h1{
+        font-size: 45px ;
     }
 
 }
