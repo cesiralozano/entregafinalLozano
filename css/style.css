@@ -504,12 +504,17 @@ header nav{
     }
 }
 
+
+/*!------MEDIAQUERIESENPAGE3ANSES-----*/
+
+
 @media screen and (max-width:1400px){
     .formulario{
-        max-width: 50%;
+        max-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 30px;
     }
 
 }    
