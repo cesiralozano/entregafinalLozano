@@ -12,3 +12,22 @@
     box-sizing: border-box;
 }
 
+/*!-------------------------------------------------HEADER--------------------------------------*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+header nav{
+    background-color:#a0138df0;
+}
+.navbar-brand{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 95px;
+}
+.navbar-nav a{
+    color: white;
+    font-style: italic;
+}
