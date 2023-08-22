@@ -5,9 +5,7 @@
         margin-left: -70px;
     }
     .tarjetas{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
     .titulo1{
         display: flex;
@@ -15,9 +13,7 @@
         max-width: 100%;
     }
     .main-container h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
     .otrosservicios1 p{
         max-width: 80%;
@@ -54,18 +50,14 @@
         margin-top: -60px;
     }
     .westernunion h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
     
     .westernunion1 p{
         text-align: center;
     }
     .westernunion1 img{
-        display: grid;
-        justify-self: center;
-        align-self: center;
+        @extend%flexbox;
         margin-top: 20px;
     }
     .otrosservicios h3{
@@ -87,9 +79,7 @@
     }
     .titulo1 h1{
         font-size: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
 }
 
@@ -100,9 +90,7 @@
 @media screen and (max-width:1400px){
     .formulario{
         max-width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
         padding: 30px;
     }
 
@@ -110,33 +98,26 @@
 
 @media screen and (max-width:920px){
     .pagina3 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
         margin-bottom: -80px;
     }
     .pagina3b {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        display: flex;
+        @extend%flexbox;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .pagina3b p{
         text-align: center;
         margin-bottom: -30px;
     }
     .formulario{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
     .titulo1 h1{
         font-size: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
 
 }
@@ -146,15 +127,12 @@
     .pagina2b{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        display: flex;
+        @extend%flexbox;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .pagina2 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
 }
 
@@ -163,15 +141,12 @@
     .pagina4b{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        display: flex;
+        @extend%flexbox;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .pagina4 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
     .pagina4b p{
         margin-right: 15%;
@@ -186,24 +161,18 @@
     .pagina5b{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        display: flex;
+        @extend%flexbox;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .pagina5 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
     }
 }
 
 /*!---------------MEDIAQUERIES PAGINA6NOSOTROS--------*/
 @media screen and (max-width:920px) {
     .formulario2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexbox;
         flex-wrap: wrap;
     }
 }

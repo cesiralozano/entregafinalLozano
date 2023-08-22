@@ -19,24 +19,24 @@ header{
     top: 0;
 }
 header nav{
-    background-color:#a0138df0;
+    background-color:nth($colores,4);
 }
 .navbar-brand{
-    color: white;
+    color: nth($colores,3);
     font-style: italic;
     font-size: 18px;
     margin-left: 95px;
 }
 .navbar-nav a{
-    color: white;
+    color: nth($colores,3);
     font-style: italic;
 }
 
 /*BOTONES*/
 .boton{
     text-decoration: none;
-    color: white;
-    background-color:black;
+    color: nth($colores,3);
+    background-color: nth($colores,1);
     font-size: 15px;
     font-style: oblique;
     padding: 9px;

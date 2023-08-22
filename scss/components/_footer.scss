@@ -1,5 +1,16 @@
 
 /*!------------------------FOOTER--------------------*/
+
+/*!----extend-----------*/
+%flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*!------------------------FOOTER--------------------*/
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,7 +24,6 @@
     }
 }
 .grid-item{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    @extend%flexboxfooter;
 }
+
