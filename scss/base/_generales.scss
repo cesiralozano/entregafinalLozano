@@ -31,3 +31,36 @@ header nav{
     color: white;
     font-style: italic;
 }
+
+/*BOTONES*/
+.boton{
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 9px;
+    border-radius: 5px;
+
+}
+/*MAPA*/
+.mapa{
+    iframe{
+    width:100%;
+    height:70vh;
+    }
+}
+
+
+/*iconowhatsapp*/
+.botonwhatsapp{
+    position: fixed;
+    bottom:100px;
+    right:50px ;
+}
+.botonwhatsapp{
+    img{
+    width: 50px;
+    margin-bottom: -60px;
+    }
+}

@@ -1,0 +1,411 @@
+
+/*!----------------------------------------------MAIN-----------------------------*/
+
+
+/*!------------------------------INDEX----*/
+/*tituloprincipal*/
+.titulo1{
+    h1{
+    background-image: url(../img/bienvenidos.webp);
+    background-size: cover;
+    width:100%;
+    height:280px ;
+    color:rgba(255, 255, 255, 0.576);
+    font-size: 65px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    padding: 95px
+}
+}
+/*titulosecundario NUESTROS SERVICIOS*/
+.titulo2{
+    h2{
+        color: #255b99c8;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 50px;
+    }
+}
+
+/*TITULOTERCIARIOpagofacil*/
+.pagofacil{
+    h3{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:30px;
+    margin-left: 95px;
+    margin-bottom:15px;
+    text-align:start;
+    color: #0b3565c8;
+    }
+}
+.pagofacil1{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    padding: 90px;
+    color:black;
+    }
+}
+.pagofacil1{
+    img{
+    width:25%;
+    height:35vh;
+    margin-right: 90px;
+    }
+}
+.pagofacil1{
+    display: flex;
+    flex-direction: row;
+}
+
+/*TITULOTERCIARIOwesternunion*/
+.westernunion{
+    h3{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin: 55px;
+    margin-bottom:15px;
+    text-align: end;
+    margin-right:195px;
+    color:#0b3565c8;
+    }
+}
+.westernunion1{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    }
+}
+.westernunion1{
+    img{
+    width:25%;
+    height:90px;
+    display: flex;
+    justify-content: end;
+    }
+}
+.westernunion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.westernunion{
+    margin-top: 105px;
+    max-width: 100%;
+}
+
+/*TITULOTERCIARIOotrosservicios*/
+.otrosservicios{
+    h3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight:1;
+    color:#0b3565c8;
+    margin: 55px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+    }
+}
+
+.otrosservicios1{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    padding: 90px;
+    color: black;
+    }
+}
+.otrosservicios1{
+    img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: end;
+    margin-right: 90px;
+    }
+}
+.otrosservicios1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.otrosservicios{
+    margin-top: 135px;
+
+}
+
+
+/*TARJETAS*/
+.tarjetas{
+    div{
+    border: 1px solid;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    margin: 85px;
+    }
+}
+.tarjetas{
+    div{
+        img{
+            width: 250px;
+            height: 200px;
+            }
+        }
+}
+
+.tarjetas{
+    div{
+        p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            }
+        }
+}
+
+.tarjetas{
+    div{
+        h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            }
+        }
+}
+.tarjetas{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*titulosecundario UBICACION Y REDES SOCIALES*/
+.nuestrasredes{
+    h2{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+    background-color:#0b3565c8;
+    padding: 10px;
+    }
+}
+
+
+/*!----------------PAGINA2PAGOFACIL-------*/
+
+/*tituloPAGOFACIL y WESTERNUNION MISMA CLASS*/
+.pagina2{
+    h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:90px;
+    margin-right: 95px;
+    margin-bottom:15px;
+    text-align:end;
+    color: #0b3565c8;
+    }
+}
+
+.pagina2b{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+    }
+}
+.boton2{
+    a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+}
+.boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.pagina2b{
+    img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+    }
+}
+.pagina2b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina2{
+    margin-top: 105px;
+}
+
+
+/*!----------PAGINA3ANSES------------*/
+
+.pagina3{
+    h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:90px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+    }
+}
+
+.pagina3{
+    img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    }
+}
+.pagina3b{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+    }
+}
+.pagina3b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina3{
+    margin-top: 105px;
+}
+
+
+/*!----------PAGINA4PLATAFORMA10------------*/
+.pagina4{
+    a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+}
+.pagina4{
+    h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:50px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+    }
+}
+
+.pagina4b{
+    img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+    }
+}
+.pagina4b{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+    }
+}
+.pagina4b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina4{
+    margin-top: 105px;
+}
+
+/*!----------PAGINA5OTROSSERVICIOS------------*/
+
+.pagina5{
+    a{
+    color:white;
+    background-color:#255b99c8;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+}
+
+.pagina5{
+    h2{
+    font-size: 35px;
+    font-style: italic;
+    font-weight:1;
+    margin-top:50px;
+    margin-right: 95px;
+    margin-bottom:5px;
+    text-align:end;
+    color: #0b3565c8;
+    }
+}
+
+.pagina5b{
+    img{
+    width:25%;
+    height:35vh;
+    display: flex;
+    align-items: start;
+    margin-bottom: 80px;
+    margin-left: 25px;
+    }
+}
+.pagina5b{
+    p{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    padding: 90px;
+    }
+}
+.pagina5b{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+}
+.pagina5{
+    margin-top: 105px;
+}
+/*!------------------PAGINA6NOSOTROS--------*/
+.formulario2{
+    max-width: 50%;
+}
