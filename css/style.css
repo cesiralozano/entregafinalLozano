@@ -254,14 +254,18 @@ header nav{
     text-align: end;
     padding: 90px;
 }
-.pagina2 a{
+.boton2 a{
     color:white;
     background-color:#255b99c8;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
-    margin:550px;
 }
+.boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 .pagina2b img{
     width:25%;
     height:35vh;
@@ -323,7 +327,6 @@ header nav{
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
-    margin:550px;
 }
 .pagina4 h2{
     font-size: 35px;
@@ -368,8 +371,8 @@ header nav{
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
-    margin:550px;
 }
+
 .pagina5 h2{
     font-size: 35px;
     font-style: italic;
@@ -403,6 +406,10 @@ header nav{
 }
 .pagina5{
     margin-top: 105px;
+}
+/*!------------------PAGINA6NOSOTROS--------*/
+.formulario2{
+    max-width: 50%;
 }
 
 /*!------------------------FOOTER--------------------*/
@@ -561,4 +568,71 @@ header nav{
         align-items: center;
     }
 
+}
+
+/*!---------------MEDIAQUERIES PAGINA2PAGOFACIL--------*/
+@media screen and (max-width:920px){
+    .pagina2b{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagina2 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*!---------------MEDIAQUERIES PAGINA4PLATAFORMA10--------*/
+@media screen and (max-width:920px){
+    .pagina4b{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagina4 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagina4b p{
+        margin-right: 15%;
+    }
+    .pagina4b img{
+        margin-right: 15%;
+    }
+}
+
+/*!---------------MEDIAQUERIES PAGINA5OTROSSERVICIOS--------*/
+@media screen and (max-width:920px) {
+    .pagina5b{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagina5 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*!---------------MEDIAQUERIES PAGINA6NOSOTROS--------*/
+@media screen and (max-width:920px) {
+    .formulario2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
