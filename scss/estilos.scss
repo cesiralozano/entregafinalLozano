@@ -6,14 +6,14 @@
 @import "./base/mediaquery";
 
 
-$colores:
-black,
-#255b99c8,
-white,
-#a0138df0;
+@mixin flex($flex,$justify,$wrap){
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
 
-@mixin flex($flex,$justify,$align){
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin flex2($flex,$direction,$justify){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
 }

@@ -1,3 +1,14 @@
+/*!----extend-----------*/
+%flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
 
 /*!-----------MEDIAQUERIES INDEX--------*/
 @media screen and (max-width:1400px){
@@ -23,16 +34,13 @@
 
 @media screen and (max-width:922px){
     .pagofacil1{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        @extend%grids;
     }
     .westernunion1{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        @extend%grids;
     }
     .otrosservicios1{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        @extend%grids;
     }
 
     .pagofacil h3{

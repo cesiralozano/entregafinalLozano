@@ -87,15 +87,11 @@
     img{
     width:25%;
     height:90px;
-    display: flex;
-    justify-content: end;
+    @include flex(flex,end);
     }
 }
 .westernunion1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include flex(flex,space-around,wrap);
     max-width: 100%;
 }
 .westernunion{
@@ -155,6 +151,7 @@
     margin: 85px;
     }
 }
+
 .tarjetas{
     div{
         img{
@@ -185,6 +182,7 @@
     display:flex;
     flex-wrap: wrap;
 }
+
 
 /*titulosecundario UBICACION Y REDES SOCIALES*/
 .nuestrasredes{
@@ -249,9 +247,7 @@
     }
 }
 .pagina2b{
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content:space-around;
+    @include flex2 (flex,row,center)
 }
 .pagina2{
     margin-top: 105px;
