@@ -456,6 +456,7 @@ footer div a img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 20px; }
   .otrosservicios h3 {
     margin-bottom: -40px;
