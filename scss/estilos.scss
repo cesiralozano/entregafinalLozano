@@ -1,19 +1,8 @@
 @import "./base/variables";
+@import "../scss/mixin.scss";
 @import "./base/generales";
 @import "./components/header";
 @import "./components/layout";
 @import "./components/footer";
 @import "./base/mediaquery";
 
-
-@mixin flex($flex,$justify,$wrap){
-    display: $flex;
-    justify-content: $justify;
-    flex-wrap: $wrap;
-}
-
-@mixin flex2($flex,$direction,$justify){
-    display: $flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-}

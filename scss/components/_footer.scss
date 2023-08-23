@@ -27,3 +27,11 @@
     @extend%flexbox;
 }
 
+
+footer div a img{
+    transition: 1s;
+}
+
+footer div a img:hover{
+    transform: scale(1.2);
+}

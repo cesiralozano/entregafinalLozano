@@ -87,7 +87,7 @@
     img{
     width:25%;
     height:90px;
-    @include flex(flex,end);
+    @include flex(flex,end,wrap);
     }
 }
 .westernunion1{
@@ -141,6 +141,14 @@
 
 
 /*TARJETAS*/
+section div a{
+    transition: 1s;
+}
+section div a:hover{
+    background-color: nth($colores,2);
+}
+
+
 .tarjetas{
     div{
     border: 1px solid;
