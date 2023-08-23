@@ -1,6 +1,10 @@
 
 /*!----------------------------------------------MAIN-----------------------------*/
-
+%flexbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*!------------------------------INDEX----*/
 /*tituloprincipal*/
@@ -146,8 +150,17 @@ section div a{
 }
 section div a:hover{
     background-color: nth($colores,2);
+    color: nth($colores,3);
 }
-
+.tarjetas div{
+    transition: 1s;
+}
+.tarjetas div:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 31px -8px rgb(10, 10, 11);
+    -webkit-box-shadow: 10px 10px 31px -8pxrgb(10, 10, 11);
+    -moz-box-shadow: 10px 10px 31px -8px rgb(10, 10, 11);
+}
 
 .tarjetas{
     div{
@@ -240,9 +253,7 @@ section div a:hover{
     }
 }
 .boton2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend%flexbox1;
 } 
 .pagina2b{
     img{
@@ -255,7 +266,7 @@ section div a:hover{
     }
 }
 .pagina2b{
-    @include flex2 (flex,row,center)
+    @include flex2 (flex,row,center);
 }
 .pagina2{
     margin-top: 105px;

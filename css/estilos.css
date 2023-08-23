@@ -52,6 +52,11 @@ header nav {
   margin-bottom: -60px; }
 
 /*!----------------------------------------------MAIN-----------------------------*/
+.boton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*!------------------------------INDEX----*/
 /*tituloprincipal*/
 .titulo1 h1 {
@@ -170,7 +175,17 @@ section div a {
   transition: 1s; }
 
 section div a:hover {
-  background-color: #255b99c8; }
+  background-color: #255b99c8;
+  color: white; }
+
+.tarjetas div {
+  transition: 1s; }
+
+.tarjetas div:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 31px -8px #0a0a0b;
+  -webkit-box-shadow: 10px 10px 31px -8pxrgb 10, 10, 11;
+  -moz-box-shadow: 10px 10px 31px -8px #0a0a0b; }
 
 .tarjetas div {
   border: 1px solid;
@@ -230,11 +245,6 @@ section div a:hover {
   text-decoration: none;
   border-radius: 5px;
   padding: 10px; }
-
-.boton2 {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .pagina2b img {
   width: 25%;
