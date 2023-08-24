@@ -480,7 +480,7 @@ footer div a img:hover {
 /*!------MEDIAQUERIESENPAGE3ANSES-----*/
 @media screen and (max-width: 1400px) {
   .formulario {
-    max-width: 100%;
+    max-width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +505,8 @@ footer div a img:hover {
   .formulario {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    max-width: 50%; }
   .titulo1 h1 {
     font-size: 45px;
     display: flex;
