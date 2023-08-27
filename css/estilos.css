@@ -125,10 +125,7 @@ header nav {
 
 .westernunion1 img {
   width: 25%;
-  height: 90px;
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap; }
+  height: 90px; }
 
 .westernunion1 {
   display: flex;
