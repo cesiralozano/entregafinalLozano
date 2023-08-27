@@ -11,10 +11,11 @@
 /*!-------------------------------------------------HEADER--------------------------------------*/
 header {
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 2; }
 
 header nav {
-  background-color: #a0138df0; }
+  background-color: #a0138da6; }
 
 .navbar-brand {
   color: white;
@@ -39,7 +40,7 @@ header nav {
 /*MAPA*/
 .mapa iframe {
   width: 100%;
-  height: 70vh; }
+  height: 390px; }
 
 /*iconowhatsapp*/
 .botonwhatsapp {
@@ -52,7 +53,7 @@ header nav {
   margin-bottom: -60px; }
 
 /*!----------------------------------------------MAIN-----------------------------*/
-.boton2 {
+.boton2, .grid-container2 h2, .grid-container2 h3 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -111,9 +112,9 @@ header nav {
   font-weight: 1;
   margin: 55px;
   margin-bottom: 15px;
-  text-align: end;
-  margin-right: 195px;
-  color: #255b99c8; }
+  text-align: start;
+  color: #255b99c8;
+  margin-left: 95px; }
 
 .westernunion1 p {
   font-style: normal;
@@ -213,12 +214,28 @@ section div a:hover {
 
 /*titulosecundario UBICACION Y REDES SOCIALES*/
 .nuestrasredes h2 {
-  color: white;
+  color: #D4D4D4;
   text-align: center;
-  font-size: 45px;
+  font-size: 38px;
   text-decoration: none;
-  background-color: #255b99c8;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  letter-spacing: 0.15em; }
+
+.nuestrasredes h3 {
+  color: #D4D4D4;
+  text-align: center; }
+
+.mapa h4 {
+  color: #171616b3;
+  text-align: center;
+  margin-top: 60px; }
+
+.mapa h5 {
+  color: #171616b3;
+  text-align: center;
+  margin-bottom: 40px; }
 
 /*!----------------PAGINA2PAGOFACIL-------*/
 /*tituloPAGOFACIL y WESTERNUNION MISMA CLASS*/
@@ -379,8 +396,39 @@ section div a:hover {
   margin-top: 105px; }
 
 /*!------------------PAGINA6NOSOTROS--------*/
+hr {
+  background-color: #959191b3;
+  font-weight: bold;
+  height: 2px;
+  max-width: 100%;
+  border: none; }
+
 .formulario2 {
-  max-width: 50%; }
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.grid-container2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-bottom: 45px; }
+  .grid-container2 h2 {
+    color: #D4D4D4;
+    margin-top: 65px;
+    letter-spacing: 0.15em;
+    font-size: 46px; }
+  .grid-container2 h3 {
+    color: #D4D4D4; }
+  .grid-container2 div {
+    display: inline-block;
+    margin-top: 65px; }
+    .grid-container2 div img {
+      width: 323px;
+      height: 362px;
+      background-color: rgba(4, 81, 132, 0.878); }
 
 /*!------------------------FOOTER--------------------*/
 /*!----extend-----------*/

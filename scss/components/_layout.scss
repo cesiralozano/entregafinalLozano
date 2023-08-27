@@ -73,9 +73,9 @@
     font-weight:1;
     margin: 55px;
     margin-bottom:15px;
-    text-align: end;
-    margin-right:195px;
+    text-align: start;
     color: nth($colores,2);
+    margin-left: 95px;
     }
 }
 .westernunion1{
@@ -208,12 +208,30 @@ section div a:hover{
 /*titulosecundario UBICACION Y REDES SOCIALES*/
 .nuestrasredes{
     h2{
-    color: nth($colores,3);
+    color: nth($colores,8);
     text-align: center;
-    font-size: 45px;
+    font-size: 38px;
     text-decoration: none;
-    background-color: nth($colores,2);
     padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    letter-spacing: 0.15em;
+    }
+    h3{
+        color: nth($colores,8);
+        text-align: center;
+        }
+}
+.mapa{
+    h4{
+    color: nth($colores,10);
+    text-align: center;
+    margin-top: 60px;
+    }
+    h5{
+    color: nth($colores,10);
+    text-align: center;
+    margin-bottom: 40px;
     }
 }
 
@@ -421,6 +439,43 @@ section div a:hover{
     margin-top: 105px;
 }
 /*!------------------PAGINA6NOSOTROS--------*/
+hr{
+    background-color: nth($colores,9);
+    font-weight: bold;
+    height: 2px;
+    max-width: 100%;
+    border: none;
+}
 .formulario2{
     max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-bottom: 45px;
+    h2{
+        color:nth($colores,8);
+        margin-top: 65px;
+        @extend%flexbox1;
+        letter-spacing: 0.15em;
+        font-size: 46px;
+    }
+    h3{
+        color:nth($colores,8);
+        @extend%flexbox1;
+    }
+    div{
+        display: inline-block;
+        margin-top: 65px;
+            img{
+                width: 323px;
+                height: 362px;
+                background-color: nth($colores,7);
+            }
+    }
 }
