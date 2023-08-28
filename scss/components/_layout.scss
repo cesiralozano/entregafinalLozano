@@ -469,7 +469,9 @@ hr{
     border: none;
 }
 .formulario2{
-    max-width: 50%;
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,7 +488,6 @@ hr{
             img{
                 width: 323px;
                 height: 362px;
-                background-color: nth($colores,7);
             }
     }
 }

@@ -423,7 +423,9 @@ hr {
   border: none; }
 
 .formulario2 {
-  max-width: 50%;
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -439,8 +441,7 @@ hr {
     margin-top: 65px; }
     .grid-container2 div img {
       width: 323px;
-      height: 362px;
-      background-color: rgba(4, 81, 132, 0.878); }
+      height: 362px; }
 
 .contacto h2 {
   color: #D4D4D4;
