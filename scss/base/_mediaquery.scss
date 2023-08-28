@@ -2,9 +2,6 @@
 
 /*!-----------MEDIAQUERIES INDEX--------*/
 @media screen and (max-width:1400px){
-    .westernunion1 img{
-        margin-left: -70px;
-    }
     .tarjetas{
         display: flex;
         justify-content: center;
@@ -34,6 +31,7 @@
     .westernunion1{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
     }
     .otrosservicios1{
         display: grid;
@@ -215,5 +213,4 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    
 }

@@ -53,7 +53,7 @@ header nav {
   margin-bottom: -60px; }
 
 /*!----------------------------------------------MAIN-----------------------------*/
-.boton2, .grid-container2 h2, .grid-container2 h3 {
+.boton2, .contacto h2, .contacto h3 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -123,9 +123,12 @@ header nav {
   text-align: center;
   padding: 30px; }
 
-.westernunion1 img {
+.westernunion1 div img {
   width: 25%;
-  height: 90px; }
+  height: 90px;
+  display: flex;
+  align-items: end;
+  max-width: 100%; }
 
 .westernunion1 {
   display: flex;
@@ -408,17 +411,10 @@ hr {
 
 .grid-container2 {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  display: inline-block;
   margin-bottom: 45px; }
-  .grid-container2 h2 {
-    color: #D4D4D4;
-    margin-top: 65px;
-    letter-spacing: 0.15em;
-    font-size: 46px; }
-  .grid-container2 h3 {
-    color: #D4D4D4; }
   .grid-container2 div {
     display: inline-block;
     margin-top: 65px; }
@@ -426,6 +422,15 @@ hr {
       width: 323px;
       height: 362px;
       background-color: rgba(4, 81, 132, 0.878); }
+
+.contacto h2 {
+  color: #D4D4D4;
+  margin-top: 65px;
+  letter-spacing: 0.15em;
+  font-size: 46px; }
+
+.contacto h3 {
+  color: #D4D4D4; }
 
 /*!------------------------FOOTER--------------------*/
 /*!----extend-----------*/
@@ -453,8 +458,6 @@ footer div a img:hover {
 
 /*!-----------MEDIAQUERIES INDEX--------*/
 @media screen and (max-width: 1400px) {
-  .westernunion1 img {
-    margin-left: -70px; }
   .tarjetas {
     display: flex;
     justify-content: center;
@@ -476,7 +479,8 @@ footer div a img:hover {
     grid-template-columns: repeat(1, 1fr); }
   .westernunion1 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; }
   .otrosservicios1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }

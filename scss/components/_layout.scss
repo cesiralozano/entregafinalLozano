@@ -88,10 +88,15 @@
     }
 }
 .westernunion1{
-    img{
-    width:25%;
-    height:90px;
-    }
+    div{
+        img{
+            width:25%;
+            height:90px;
+            display: flex;
+            align-items: end;
+            max-width: 100%
+            }
+        }
 }
 .westernunion1{
     @include flex(flex,space-around,wrap);
@@ -453,10 +458,21 @@ hr{
 }
 .grid-container2{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    display: inline-block;
     margin-bottom: 45px;
+    div{
+        display: inline-block;
+        margin-top: 65px;
+            img{
+                width: 323px;
+                height: 362px;
+                background-color: nth($colores,7);
+            }
+    }
+}
+.contacto{
     h2{
         color:nth($colores,8);
         margin-top: 65px;
@@ -467,14 +483,5 @@ hr{
     h3{
         color:nth($colores,8);
         @extend%flexbox1;
-    }
-    div{
-        display: inline-block;
-        margin-top: 65px;
-            img{
-                width: 323px;
-                height: 362px;
-                background-color: nth($colores,7);
-            }
     }
 }
