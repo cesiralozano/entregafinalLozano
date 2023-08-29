@@ -408,15 +408,19 @@ section div a:hover{
     margin-top: 105px;
 }
 
+
 .carrusel{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-top: 120px;
     margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 .carousel-inner{
-    max-width: 80%;
+    height: 400px;
 }
 
 /*!----------PAGINA5OTROSSERVICIOS------------*/

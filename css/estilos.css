@@ -377,11 +377,14 @@ section div a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  flex-wrap: wrap;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  margin-left: 60px; }
 
 .carousel-inner {
-  max-width: 80%; }
+  height: 400px; }
 
 /*!----------PAGINA5OTROSSERVICIOS------------*/
 .pagina5 a {
