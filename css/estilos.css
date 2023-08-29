@@ -373,16 +373,15 @@ section div a:hover {
 .pagina4 {
   margin-top: 105px; }
 
-.carousel-inner div img {
-  height: 400px; }
-
 .carrusel {
-  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
   margin-bottom: 60px; }
+
+.carousel-inner {
+  max-width: 80%; }
 
 /*!----------PAGINA5OTROSSERVICIOS------------*/
 .pagina5 a {
