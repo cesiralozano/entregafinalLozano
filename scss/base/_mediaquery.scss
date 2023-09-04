@@ -145,6 +145,35 @@
     }
 
 }
+@media screen and (max-width:709px){
+    .elementoanses{
+        
+    }
+    .elementoanses h3{
+        font-size: nth($font-size,1);
+    }
+    .elementoanses h4{
+        font-size: nth($font-size,3);
+    }
+}
+
+@media screen and (max-width:500px){
+    .elementoanses h3{
+        font-size: nth($font-size,3);
+    }
+    .elementoanses h4{
+        font-size: nth($font-size,4);
+    }
+}
+
+@media screen and (max-width:360px){
+    .elementoanses h3{
+        font-size: nth($font-size,5);
+    }
+    .elementoanses h4{
+        font-size: nth($font-size,6);
+    }
+}
 
 /*!---------------MEDIAQUERIES PAGINA2PAGOFACIL--------*/
 @media screen and (max-width:920px){

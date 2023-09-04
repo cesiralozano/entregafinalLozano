@@ -345,16 +345,59 @@ section div a:hover{
     display: flex;
     flex-direction:row-reverse;
     justify-content:space-around;
+    margin-bottom: 60px;
 }
 .pagina3{
     margin-top: 105px;
 }
 .formulario{
     max-width: 80%;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.containeranses{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.elementoanses{
+    border: 2px solid #e3e3e3;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    max-width: 25%;
+}
+.elementoanses h3{
+    font-size: nth($font-size,2);
+    font-style: italic;
+    color: nth($colores,7);
+    padding-left: 20px;
+    padding-right: 20px;
+    @extend%flexbox1;
+}
+.elementoanses h4{
+    font-size: nth($font-size,1);
+    color: nth($colores,11);
+    padding-left: 20px;
+    padding-right: 20px;
+    @extend%flexbox1;
+}
+.tramitesyservicios{
+    
+    
+}
+
+
 
 
 /*!----------PAGINA4PLATAFORMA10------------*/
