@@ -63,6 +63,7 @@
 .pagofacil1{
     display: flex;
     flex-direction: row;
+    
 }
 
 /*TITULOTERCIARIOwesternunion*/
@@ -311,7 +312,7 @@ section div a:hover{
 
 .pagina3{
     h2{
-    font-size: 35px;
+    font-size: nth($font-size,7);
     font-style: italic;
     font-weight:1;
     margin-top:90px;
@@ -325,17 +326,16 @@ section div a:hover{
 .pagina3{
     img{
     width:25%;
-    height:35vh;
+    height:25%;
     display: flex;
     align-items: start;
-    margin-bottom: 80px;
     margin-left: 30px;
     }
 }
 .pagina3b{
     p{
     font-style: normal;
-    font-size: 20px;
+    font-size: nth($font-size,8);
     color: nth($colores,1);
     text-align: end;
     padding: 90px;
@@ -392,10 +392,7 @@ section div a:hover{
     padding-right: 20px;
     @extend%flexbox1;
 }
-.tramitesyservicios{
-    
-    
-}
+
 
 
 
