@@ -53,7 +53,7 @@ header nav {
   margin-bottom: -60px; }
 
 /*!----------------------------------------------MAIN-----------------------------*/
-.boton2, .elementoanses h3, .elementoanses h4, .contacto h2, .contacto h3 {
+.boton2, .boton2b, .bannercontainer, .formulario, .elementoanses h3, .elementoanses h4, .carrusel, .formulario2, .grid-container2, .contacto h2, .contacto h3 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -84,26 +84,26 @@ header nav {
   font-size: 35px;
   font-style: italic;
   font-weight: 1;
-  margin-top: 30px;
+  margin-top: 90px;
   margin-left: 95px;
-  margin-bottom: 15px;
   text-align: start;
   color: #255b99c8; }
 
 .pagofacil1 p {
   font-style: normal;
   font-size: 20px;
-  padding: 90px;
-  color: black; }
+  margin-top: 120px;
+  color: black;
+  text-align: center; }
 
 .pagofacil1 img {
-  width: 25%;
-  height: 35vh;
-  margin-right: 90px; }
+  width: 20%;
+  height: 35vh; }
 
 .pagofacil1 {
   display: flex;
-  flex-direction: row; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 /*TITULOTERCIARIOwesternunion*/
 .westernunion h3 {
@@ -121,7 +121,7 @@ header nav {
   font-size: 20px;
   color: black;
   text-align: center;
-  padding: 30px; }
+  margin-top: 40px; }
 
 .westernunion1 div img {
   width: 25%;
@@ -146,30 +146,27 @@ header nav {
   font-style: italic;
   font-weight: 1;
   color: #255b99c8;
-  margin: 55px;
-  margin-bottom: 10px;
   margin-left: 95px; }
 
 .otrosservicios1 p {
   font-style: normal;
   font-size: 20px;
-  padding: 90px;
-  color: black; }
+  color: black;
+  text-align: center;
+  margin-top: 40px; }
 
 .otrosservicios1 img {
-  width: 25%;
-  height: 35vh;
-  display: flex;
-  align-items: end;
-  margin-right: 90px; }
+  width: 20%;
+  height: 35vh; }
 
 .otrosservicios1 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .otrosservicios {
-  margin-top: 135px; }
+  margin-top: 135px;
+  margin-bottom: 60px; }
 
 /*TARJETAS*/
 section div a {
@@ -256,7 +253,21 @@ section div a:hover {
   text-align: end;
   padding: 90px; }
 
+.pagina2c p {
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  text-align: end;
+  padding: 90px; }
+
 .boton2 a {
+  color: white;
+  background-color: #255b99c8;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px; }
+
+.boton2b a {
   color: white;
   background-color: #255b99c8;
   text-decoration: none;
@@ -271,13 +282,28 @@ section div a:hover {
   margin-bottom: 80px;
   margin-left: 25px; }
 
+.pagina2c img {
+  width: 25%;
+  height: 35vh;
+  display: flex;
+  align-items: start;
+  margin-bottom: 80px;
+  margin-left: 25px; }
+
 .pagina2b {
   display: flex;
   flex-direction: row;
   justify-content: center; }
 
+.pagina2c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 .pagina2 {
-  margin-top: 105px; }
+  margin-top: 105px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .banner1 {
   max-width: 100%;
@@ -288,9 +314,7 @@ section div a:hover {
   width: 80%; }
 
 .bannercontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin-top: 60px; }
 
 /*!----------PAGINA3ANSES------------*/
 .pagina3 h2 {
@@ -328,19 +352,15 @@ section div a:hover {
 
 .formulario {
   max-width: 80%;
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin-top: 60px; }
 
 .containeranses {
-  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding-left: 20px;
-  padding-right: 20px; }
+  flex-wrap: wrap; }
 
 .elementoanses {
   border: 2px solid #e3e3e3;
@@ -406,18 +426,20 @@ section div a:hover {
 .pagina4 {
   margin-top: 105px; }
 
-.carrusel {
+.boton2d {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; }
+
+.carrusel {
   flex-wrap: wrap;
-  margin-top: 120px;
-  margin-bottom: 60px;
-  margin-right: 60px;
-  margin-left: 60px; }
+  margin-top: 120px; }
 
 .carousel-inner {
-  height: 400px; }
+  max-width: 100%;
+  margin-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px; }
 
 /*!----------PAGINA5OTROSSERVICIOS------------*/
 .pagina5 a {
@@ -460,6 +482,12 @@ section div a:hover {
 .pagina5 {
   margin-top: 105px; }
 
+.boton2e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px; }
+
 /*!------------------PAGINA6NOSOTROS--------*/
 hr {
   background-color: #959191b3;
@@ -471,15 +499,9 @@ hr {
 .formulario2 {
   max-width: 100%;
   margin-top: 60px;
-  margin-bottom: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin-bottom: 60px; }
 
 .grid-container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 45px; }
   .grid-container2 div {
@@ -538,33 +560,39 @@ footer div a img:hover {
   .otrosservicios1 p {
     max-width: 80%; } }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 1072px) {
   .pagofacil1 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+    padding-right: 10px; }
   .westernunion1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    justify-items: center; }
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px; }
   .otrosservicios1 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+    padding-right: 10px; }
   .pagofacil h3 {
-    margin-bottom: -40px;
-    margin-top: 80px;
     text-align: center;
-    margin-left: -30px; }
+    margin-top: 60px;
+    margin-right: 80px; }
   .pagofacil1 p {
-    text-align: start; }
+    text-align: center; }
   .pagofacil1 img {
+    display: grid;
     justify-self: center;
-    align-self: center;
-    margin-top: -60px;
-    margin-left: 30px; }
+    margin-left: 30px;
+    margin-top: 60px; }
   .westernunion h3 {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-right: 80px; }
   .westernunion1 p {
     text-align: center; }
   .westernunion1 img {
@@ -572,25 +600,68 @@ footer div a img:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px; }
+    margin-top: 60px; }
   .otrosservicios h3 {
-    margin-bottom: -40px;
-    margin-top: 90px;
+    margin-top: 40px;
     text-align: center;
-    margin-left: -30px; }
-  .otrosservicios1 img {
+    margin-right: 80px; }
+  .otrosservicios1 p {
+    text-align: center;
     justify-self: center;
-    align-self: center;
-    margin-top: -60px; }
-  .otrosservicios {
-    max-width: 100%; }
+    align-self: center; }
+  .otrosservicios1 img {
+    display: grid;
+    justify-self: center;
+    margin-top: 60px; }
   .tarjetas {
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin-top: 60px; }
   .titulo1 h1 {
     font-size: 45px;
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .botonwhatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 30px; } }
+
+@media screen and (max-width: 800px) {
+  .titulo2 h2 {
+    font-size: 31px; }
+  .pagofacil h3 {
+    font-size: 31px; }
+  .pagofacil1 p {
+    font-size: 16px; }
+  .westernunion1 img {
+    width: 35%;
+    height: 90px; }
+  .westernunion h3 {
+    font-size: 29px;
+    margin: 0px; }
+  .westernunion p {
+    font-size: 16px; }
+  .westernunion {
+    margin-top: 60px; }
+  .otrosservicios h3 {
+    font-size: 29px;
+    margin: 0px; }
+  .otrosservicios p {
+    font-size: 16px; }
+  .otrosservicios1 img {
+    width: 30%;
+    height: 35vh; }
+  .otrosservicios {
+    margin-top: 60px; } }
+
+@media screen and (max-width: 500px) {
+  .otrosservicios1 img {
+    width: 30%;
+    height: 25vh; }
+  .titulo2 h2 {
+    font-size: 31px;
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /*!------MEDIAQUERIESENPAGE3ANSES-----*/
 @media screen and (max-width: 1400px) {
@@ -662,10 +733,107 @@ footer div a img:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column; }
-  .pagina2 h2 {
+  .pagina2c {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+    flex-direction: column; }
+  .pagina2 h2 {
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 0px; }
+  .pagina2b p {
+    text-align: center;
+    padding: 30px; }
+  .pagina2c p {
+    text-align: center;
+    padding: 30px; }
+  .pagina2c img {
+    width: 35%;
+    height: 25vh;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 700px) {
+  .pagina2 h2 {
+    font-size: 31px; }
+  .pagina2b p {
+    font-size: 16px; }
+  .pagina2c p {
+    font-size: 16px; }
+  .pagina2c img {
+    width: 45%;
+    height: 15vh;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 500px) {
+  .pagina2b img {
+    width: 35%;
+    height: 25vh;
+    margin-top: 20px; }
+  .pagina2 h2 {
+    font-size: 29px; } }
+
+@media screen and (max-width: 477px) {
+  .pagina2 h2 {
+    font-size: 26px; }
+  .boton2 a {
+    width: 50%;
+    height: 5vh;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 11px; }
+  .boton2b a {
+    width: 35%;
+    height: 5vh;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 11px; } }
+
+@media screen and (max-width: 452px) {
+  .pagina2 h2 {
+    font-size: 23px; } }
+
+@media screen and (max-width: 427px) {
+  .pagina2 h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 414px) {
+  .pagina2 h2 {
+    font-size: 16px; }
+  .pagina2b p {
+    font-size: 13px; }
+  .pagina2c p {
+    font-size: 13px; }
+  .pagina2b img {
+    width: 30%;
+    height: 20vh;
+    margin-top: 10px; }
+  .pagina2c img {
+    width: 35%;
+    height: 10vh;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 407px) {
+  .boton2 a {
+    width: 40%;
+    height: 5vh;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 8px; }
+  .boton2b a {
+    width: 30%;
+    height: 5vh;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 8px; }
+  .pagina2b p {
+    margin-bottom: 0px; }
+  .pagina2b img {
+    margin-bottom: 40px; }
+  .pagina2c img {
+    margin-bottom: 40px; } }
 
 /*!---------------MEDIAQUERIES PAGINA4PLATAFORMA10--------*/
 @media screen and (max-width: 920px) {
@@ -679,11 +847,45 @@ footer div a img:hover {
   .pagina4 h2 {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-right: 10px; }
   .pagina4b p {
-    margin-right: 15%; }
+    text-align: center; }
+  .boton2d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px; }
+  .carrusel {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 790px) {
   .pagina4b img {
-    margin-right: 15%; } }
+    width: 25%;
+    height: 30vh; } }
+
+@media screen and (max-width: 640px) {
+  .pagina4b img {
+    width: 25%;
+    height: 20vh; } }
+
+@media screen and (max-width: 493px) {
+  .pagina4b img {
+    width: 35%;
+    height: 20vh;
+    margin-right: 30px; }
+  .boton2d a {
+    width: 20%;
+    height: 5vh;
+    text-align: center;
+    font-size: 8px;
+    margin-right: 25px; }
+  .pagina4 h2 {
+    font-size: 19px; }
+  .pagina4b p {
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 40px; } }
 
 /*!---------------MEDIAQUERIES PAGINA5OTROSSERVICIOS--------*/
 @media screen and (max-width: 920px) {
@@ -697,12 +899,72 @@ footer div a img:hover {
   .pagina5 h2 {
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 60px; }
+  .pagina5b p {
+    padding: 0px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 60px; }
+  .boton2e {
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 728px) {
+  .pagina5b img {
+    width: 25%;
+    height: 25vh; } }
+
+@media screen and (max-width: 566px) {
+  .pagina5 h2 {
+    font-size: 26px; } }
+
+@media screen and (max-width: 468px) {
+  .pagina5 h2 {
+    font-size: 20px; }
+  .pagina5b p {
+    font-size: 16px; }
+  .boton2e a {
+    width: 30%;
+    height: 5vh;
+    font-size: 13px;
+    text-align: center; }
+  .pagina5b img {
+    margin-right: 30px; } }
+
+@media screen and (max-width: 398px) {
+  .pagina5 h2 {
+    font-size: 18px;
+    margin-bottom: 40px; }
+  .pagina5b p {
+    font-size: 16px; }
+  .pagina5b img {
+    width: 25%;
+    height: 15vh; }
+  .boton2e a {
+    width: 30%;
+    height: 5vh;
+    font-size: 10px;
+    text-align: center; } }
 
 /*!---------------MEDIAQUERIES PAGINA6NOSOTROS--------*/
+@media screen and (max-width: 1130px) {
+  .grid-container2 {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
 @media screen and (max-width: 920px) {
   .formulario2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; } }
+
+@media screen and (max-width: 643px) {
+  .horarios h5 {
+    padding-left: 40px;
+    padding-right: 40px; }
+  .grid-container2 div img {
+    width: 310px;
+    height: 350px; } }
